@@ -1,0 +1,12 @@
+# Font
+font-family = "MesloLGS Nerd Font Mono"
+font-size = 18
+
+# Theme
+theme = catppuccin-macchiato.conf
+
+# Window
+fullscreen = true
+
+# Shell integration
+shell-integration = zsh
