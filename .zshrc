@@ -27,9 +27,33 @@ zinit light zsh-users/zsh-autosuggestions
 
 # Keybindings
 bindkey -e # Emacs mode
+bindkey '^p' history-search-backwards
+bindkey '^n' history-search-forwards
+
+# History
+HISTSIZE=1000
+HISTFILE=~/.zsh_history
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+setopt hist_ignore_space
+setopt hist_ignore_all_dups
+setopt hist_find_no_dups
 
 # Load completions
 autoload -U compinit && compinit
+
+# Completion styling
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --zsh)"
+
+# Using eza for ls
+alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

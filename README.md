@@ -26,6 +26,14 @@ Install Nerd Fonts
 - `ttf-meslo-nerd`
 - `ttf-jetbrains-mono-nerd` (Optional)
 
+### Useful CLI tools
+
+- `fzf`
+- `bat`
+- `git-delta`
+- `yazi`
+- `eza`
+
 ## Resources
 
 - [Typecraft's dotfiles repo](https://github.com/typecraft-dev/dotfiles)
