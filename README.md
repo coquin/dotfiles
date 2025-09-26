@@ -4,6 +4,12 @@ Collection of config files.
 
 ## Requirements
 
+### Ghostty terminal
+
+Install Ghostty terminal.
+
+### GNU Stow
+
 1. Install `stow` - `brew install stow`
 2. Checkout to `~/dotfiles`
 3. Stow required configs:
@@ -12,6 +18,13 @@ Collection of config files.
 cd ~/dotfiles
 stow nvim
 ```
+
+### Fonts
+
+Install Nerd Fonts
+
+- `ttf-meslo-nerd`
+- `ttf-jetbrains-mono-nerd` (Optional)
 
 ## Resources
 
