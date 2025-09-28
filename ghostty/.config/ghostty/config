@@ -6,7 +6,7 @@ font-size = 18
 theme = catppuccin-macchiato.conf
 
 # Window
-fullscreen = true
+fullscreen = false
 
 # Shell integration
 shell-integration = zsh
