@@ -34,6 +34,13 @@ Install Nerd Fonts
 - `yazi`
 - `eza`
 
+## Special notes on using with Archlinux and Hyprland
+
+Following packages need to be installed:
+
+- `waybar`
+- `wl-clipboard` to enable copy-paste from/to Neovim using yank command.
+
 ## Resources
 
 - [Typecraft's dotfiles repo](https://github.com/typecraft-dev/dotfiles)
