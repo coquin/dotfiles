@@ -1,6 +1,6 @@
 # Font
 font-family = "MesloLGS Nerd Font Mono"
-font-size = 18
+font-size = 14
 
 # Theme
 theme = catppuccin-macchiato.conf
