@@ -41,6 +41,11 @@ Following packages need to be installed:
 - `waybar`
 - `hyprsunset`
 - `wl-clipboard` to enable copy-paste from/to Neovim using yank command.
+- `waypaper`
+- `hypridle`
+- `hyprlock`
+- `hyprpaper`
+- `hyprshot`
 
 ## Resources
 
